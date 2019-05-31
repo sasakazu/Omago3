@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12366873E6E13696AD24EA8D /* Pods_Omago3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01372A00D8BCD94D33A30222 /* Pods_Omago3UITests.framework */; };
+		73019D4BD5FF2E6E78348766 /* Pods_Omago3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893C921E58E6BA026E9F47EC /* Pods_Omago3.framework */; };
+		73BACF8C22A120CC00B20B41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BACF8B22A120CC00B20B41 /* AppDelegate.swift */; };
+		73BACF8E22A120CC00B20B41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BACF8D22A120CC00B20B41 /* ViewController.swift */; };
+		73BACF9122A120CC00B20B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BACF8F22A120CC00B20B41 /* Main.storyboard */; };
+		73BACF9322A120CD00B20B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73BACF9222A120CD00B20B41 /* Assets.xcassets */; };
+		73BACF9622A120CD00B20B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BACF9422A120CD00B20B41 /* LaunchScreen.storyboard */; };
+		73BACFA122A120CD00B20B41 /* Omago3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BACFA022A120CD00B20B41 /* Omago3Tests.swift */; };
+		73BACFAC22A120CD00B20B41 /* Omago3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BACFAB22A120CD00B20B41 /* Omago3UITests.swift */; };
+		88C789B27A08F6890DF75044 /* Pods_Omago3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC1AB448F27CE35E1805BD3 /* Pods_Omago3Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73BACF9D22A120CD00B20B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73BACF8022A120CC00B20B41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73BACF8722A120CC00B20B41;
+			remoteInfo = Omago3;
+		};
+		73BACFA822A120CD00B20B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73BACF8022A120CC00B20B41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73BACF8722A120CC00B20B41;
+			remoteInfo = Omago3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01372A00D8BCD94D33A30222 /* Pods_Omago3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omago3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC1AB448F27CE35E1805BD3 /* Pods_Omago3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omago3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0F0A86A7F5FB03D0D75513 /* Pods-Omago3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omago3.release.xcconfig"; path = "Target Support Files/Pods-Omago3/Pods-Omago3.release.xcconfig"; sourceTree = "<group>"; };
+		55A1AFC653DCFD251E361ABC /* Pods-Omago3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omago3.debug.xcconfig"; path = "Target Support Files/Pods-Omago3/Pods-Omago3.debug.xcconfig"; sourceTree = "<group>"; };
+		73BACF8822A120CC00B20B41 /* Omago3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omago3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BACF8B22A120CC00B20B41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73BACF8D22A120CC00B20B41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73BACF9022A120CC00B20B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73BACF9222A120CD00B20B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73BACF9522A120CD00B20B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73BACF9722A120CD00B20B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BACF9C22A120CD00B20B41 /* Omago3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Omago3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BACFA022A120CD00B20B41 /* Omago3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omago3Tests.swift; sourceTree = "<group>"; };
+		73BACFA222A120CD00B20B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BACFA722A120CD00B20B41 /* Omago3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Omago3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BACFAB22A120CD00B20B41 /* Omago3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omago3UITests.swift; sourceTree = "<group>"; };
+		73BACFAD22A120CD00B20B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778E6D4176FA8399A7AE9D0C /* Pods-Omago3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omago3Tests.release.xcconfig"; path = "Target Support Files/Pods-Omago3Tests/Pods-Omago3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		893C921E58E6BA026E9F47EC /* Pods_Omago3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omago3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50EA4E2A04F05AA4F65AC8D /* Pods-Omago3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omago3UITests.release.xcconfig"; path = "Target Support Files/Pods-Omago3UITests/Pods-Omago3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB24F6833885112E27E2AAEE /* Pods-Omago3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omago3UITests.debug.xcconfig"; path = "Target Support Files/Pods-Omago3UITests/Pods-Omago3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED1E91E0D8F6E5B3B4F1AB91 /* Pods-Omago3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omago3Tests.debug.xcconfig"; path = "Target Support Files/Pods-Omago3Tests/Pods-Omago3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73BACF8522A120CC00B20B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73019D4BD5FF2E6E78348766 /* Pods_Omago3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BACF9922A120CD00B20B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C789B27A08F6890DF75044 /* Pods_Omago3Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BACFA422A120CD00B20B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12366873E6E13696AD24EA8D /* Pods_Omago3UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73BACF7F22A120CC00B20B41 = {
+			isa = PBXGroup;
+			children = (
+				73BACF8A22A120CC00B20B41 /* Omago3 */,
+				73BACF9F22A120CD00B20B41 /* Omago3Tests */,
+				73BACFAA22A120CD00B20B41 /* Omago3UITests */,
+				73BACF8922A120CC00B20B41 /* Products */,
+				7BDBAB1E279917829F30E061 /* Pods */,
+				E9DCBD34AF4EF9EA8002BCDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73BACF8922A120CC00B20B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73BACF8822A120CC00B20B41 /* Omago3.app */,
+				73BACF9C22A120CD00B20B41 /* Omago3Tests.xctest */,
+				73BACFA722A120CD00B20B41 /* Omago3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73BACF8A22A120CC00B20B41 /* Omago3 */ = {
+			isa = PBXGroup;
+			children = (
+				73BACF8B22A120CC00B20B41 /* AppDelegate.swift */,
+				73BACF8D22A120CC00B20B41 /* ViewController.swift */,
+				73BACF8F22A120CC00B20B41 /* Main.storyboard */,
+				73BACF9222A120CD00B20B41 /* Assets.xcassets */,
+				73BACF9422A120CD00B20B41 /* LaunchScreen.storyboard */,
+				73BACF9722A120CD00B20B41 /* Info.plist */,
+			);
+			path = Omago3;
+			sourceTree = "<group>";
+		};
+		73BACF9F22A120CD00B20B41 /* Omago3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73BACFA022A120CD00B20B41 /* Omago3Tests.swift */,
+				73BACFA222A120CD00B20B41 /* Info.plist */,
+			);
+			path = Omago3Tests;
+			sourceTree = "<group>";
+		};
+		73BACFAA22A120CD00B20B41 /* Omago3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				73BACFAB22A120CD00B20B41 /* Omago3UITests.swift */,
+				73BACFAD22A120CD00B20B41 /* Info.plist */,
+			);
+			path = Omago3UITests;
+			sourceTree = "<group>";
+		};
+		7BDBAB1E279917829F30E061 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55A1AFC653DCFD251E361ABC /* Pods-Omago3.debug.xcconfig */,
+				4B0F0A86A7F5FB03D0D75513 /* Pods-Omago3.release.xcconfig */,
+				ED1E91E0D8F6E5B3B4F1AB91 /* Pods-Omago3Tests.debug.xcconfig */,
+				778E6D4176FA8399A7AE9D0C /* Pods-Omago3Tests.release.xcconfig */,
+				EB24F6833885112E27E2AAEE /* Pods-Omago3UITests.debug.xcconfig */,
+				C50EA4E2A04F05AA4F65AC8D /* Pods-Omago3UITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9DCBD34AF4EF9EA8002BCDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				893C921E58E6BA026E9F47EC /* Pods_Omago3.framework */,
+				0EC1AB448F27CE35E1805BD3 /* Pods_Omago3Tests.framework */,
+				01372A00D8BCD94D33A30222 /* Pods_Omago3UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73BACF8722A120CC00B20B41 /* Omago3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BACFB022A120CD00B20B41 /* Build configuration list for PBXNativeTarget "Omago3" */;
+			buildPhases = (
+				2B556318609A9E64960D7E20 /* [CP] Check Pods Manifest.lock */,
+				73BACF8422A120CC00B20B41 /* Sources */,
+				73BACF8522A120CC00B20B41 /* Frameworks */,
+				73BACF8622A120CC00B20B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omago3;
+			productName = Omago3;
+			productReference = 73BACF8822A120CC00B20B41 /* Omago3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73BACF9B22A120CD00B20B41 /* Omago3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BACFB322A120CD00B20B41 /* Build configuration list for PBXNativeTarget "Omago3Tests" */;
+			buildPhases = (
+				5CFE682D17E908A2F6875C2B /* [CP] Check Pods Manifest.lock */,
+				73BACF9822A120CD00B20B41 /* Sources */,
+				73BACF9922A120CD00B20B41 /* Frameworks */,
+				73BACF9A22A120CD00B20B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73BACF9E22A120CD00B20B41 /* PBXTargetDependency */,
+			);
+			name = Omago3Tests;
+			productName = Omago3Tests;
+			productReference = 73BACF9C22A120CD00B20B41 /* Omago3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73BACFA622A120CD00B20B41 /* Omago3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BACFB622A120CD00B20B41 /* Build configuration list for PBXNativeTarget "Omago3UITests" */;
+			buildPhases = (
+				4CC35FF1CA14CA3EA82DE3BD /* [CP] Check Pods Manifest.lock */,
+				73BACFA322A120CD00B20B41 /* Sources */,
+				73BACFA422A120CD00B20B41 /* Frameworks */,
+				73BACFA522A120CD00B20B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73BACFA922A120CD00B20B41 /* PBXTargetDependency */,
+			);
+			name = Omago3UITests;
+			productName = Omago3UITests;
+			productReference = 73BACFA722A120CD00B20B41 /* Omago3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73BACF8022A120CC00B20B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "笹倉一也";
+				TargetAttributes = {
+					73BACF8722A120CC00B20B41 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					73BACF9B22A120CD00B20B41 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 73BACF8722A120CC00B20B41;
+					};
+					73BACFA622A120CD00B20B41 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 73BACF8722A120CC00B20B41;
+					};
+				};
+			};
+			buildConfigurationList = 73BACF8322A120CC00B20B41 /* Build configuration list for PBXProject "Omago3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73BACF7F22A120CC00B20B41;
+			productRefGroup = 73BACF8922A120CC00B20B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73BACF8722A120CC00B20B41 /* Omago3 */,
+				73BACF9B22A120CD00B20B41 /* Omago3Tests */,
+				73BACFA622A120CD00B20B41 /* Omago3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73BACF8622A120CC00B20B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BACF9622A120CD00B20B41 /* LaunchScreen.storyboard in Resources */,
+				73BACF9322A120CD00B20B41 /* Assets.xcassets in Resources */,
+				73BACF9122A120CC00B20B41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BACF9A22A120CD00B20B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BACFA522A120CD00B20B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B556318609A9E64960D7E20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Omago3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC35FF1CA14CA3EA82DE3BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Omago3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CFE682D17E908A2F6875C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Omago3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73BACF8422A120CC00B20B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BACF8E22A120CC00B20B41 /* ViewController.swift in Sources */,
+				73BACF8C22A120CC00B20B41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BACF9822A120CD00B20B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BACFA122A120CD00B20B41 /* Omago3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BACFA322A120CD00B20B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BACFAC22A120CD00B20B41 /* Omago3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73BACF9E22A120CD00B20B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73BACF8722A120CC00B20B41 /* Omago3 */;
+			targetProxy = 73BACF9D22A120CD00B20B41 /* PBXContainerItemProxy */;
+		};
+		73BACFA922A120CD00B20B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73BACF8722A120CC00B20B41 /* Omago3 */;
+			targetProxy = 73BACFA822A120CD00B20B41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73BACF8F22A120CC00B20B41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73BACF9022A120CC00B20B41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73BACF9422A120CD00B20B41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73BACF9522A120CD00B20B41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73BACFAE22A120CD00B20B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73BACFAF22A120CD00B20B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73BACFB122A120CD00B20B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A1AFC653DCFD251E361ABC /* Pods-Omago3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNAV5S2KU6;
+				INFOPLIST_FILE = Omago3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sasakura.company.Omago3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73BACFB222A120CD00B20B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0F0A86A7F5FB03D0D75513 /* Pods-Omago3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNAV5S2KU6;
+				INFOPLIST_FILE = Omago3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sasakura.company.Omago3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73BACFB422A120CD00B20B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1E91E0D8F6E5B3B4F1AB91 /* Pods-Omago3Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNAV5S2KU6;
+				INFOPLIST_FILE = Omago3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sasakura.company.Omago3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omago3.app/Omago3";
+			};
+			name = Debug;
+		};
+		73BACFB522A120CD00B20B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778E6D4176FA8399A7AE9D0C /* Pods-Omago3Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNAV5S2KU6;
+				INFOPLIST_FILE = Omago3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sasakura.company.Omago3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omago3.app/Omago3";
+			};
+			name = Release;
+		};
+		73BACFB722A120CD00B20B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB24F6833885112E27E2AAEE /* Pods-Omago3UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNAV5S2KU6;
+				INFOPLIST_FILE = Omago3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sasakura.company.Omago3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Omago3;
+			};
+			name = Debug;
+		};
+		73BACFB822A120CD00B20B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50EA4E2A04F05AA4F65AC8D /* Pods-Omago3UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNAV5S2KU6;
+				INFOPLIST_FILE = Omago3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sasakura.company.Omago3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Omago3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73BACF8322A120CC00B20B41 /* Build configuration list for PBXProject "Omago3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BACFAE22A120CD00B20B41 /* Debug */,
+				73BACFAF22A120CD00B20B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BACFB022A120CD00B20B41 /* Build configuration list for PBXNativeTarget "Omago3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BACFB122A120CD00B20B41 /* Debug */,
+				73BACFB222A120CD00B20B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BACFB322A120CD00B20B41 /* Build configuration list for PBXNativeTarget "Omago3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BACFB422A120CD00B20B41 /* Debug */,
+				73BACFB522A120CD00B20B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BACFB622A120CD00B20B41 /* Build configuration list for PBXNativeTarget "Omago3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BACFB722A120CD00B20B41 /* Debug */,
+				73BACFB822A120CD00B20B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73BACF8022A120CC00B20B41 /* Project object */;
+}
