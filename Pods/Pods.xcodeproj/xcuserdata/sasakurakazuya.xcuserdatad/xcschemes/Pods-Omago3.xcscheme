@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09CAE56466A7C69A7E82160CBDE5BBC6"
+               BlueprintIdentifier = "18170CD3FE2E889FD7C7232043EA92F2"
                BuildableName = "Pods-Omago3.framework"
                BlueprintName = "Pods-Omago3"
                ReferencedContainer = "container:Pods.xcodeproj">

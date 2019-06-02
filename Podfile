@@ -7,6 +7,9 @@ target 'Omago3' do
 
   # Pods for Omago3
 
+  pod 'RealmSwift'
+  
+  
   target 'Omago3Tests' do
     inherit! :search_paths
     # Pods for testing
